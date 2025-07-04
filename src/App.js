@@ -2,13 +2,18 @@ import React from "react";
 
 const projects = [
   {
-    title: "Game Dev Project",
-    description: "A game I developed using Unity and C#.",
+    title: "Game Development",
+    description: "Coming soon ~ various games made with LOVE2D and GODOT game engines",
     link: "#",
   },
   {
-    title: "Graphic Design Work",
-    description: "My high school graphic design portfolio.",
+    title: " Design",
+    description: "Coming soon ~ editorial design for my high school's art magazine and miscellaneous media",
+    link: "#",
+  },
+  {
+    title: "Photography",
+    description: "Coming soon ~ my best work shot on 35mm film",
     link: "#",
   },
 ];
@@ -18,9 +23,10 @@ function App() {
     <div style={{ fontFamily: "Arial, sans-serif", maxWidth: 800, margin: "auto", padding: 20 }}>
       <header style={{ textAlign: "center", marginBottom: 40 }}>
         <h1>Ali Zaidi</h1>
-        <p>Incoming CS student at UCI | Product Design & Game Dev Portfolio</p>
+        <p>Incoming CS student at UCI | Aspiring Product Designer</p>
         <nav style={{ marginTop: 10 }}>
           <a href="#projects" style={{ margin: "0 10px" }}>Projects</a>
+          <a href="#about" style={{ margin: "0 10px" }}>About</a>
           <a href="#contact" style={{ margin: "0 10px" }}>Contact</a>
         </nav>
       </header>
@@ -34,6 +40,12 @@ function App() {
             <a href={project.link}>View Project</a>
           </div>
         ))}
+      </section>
+
+      <section id="about">
+        <h2>About</h2>
+        <p>Hi! I am an incoming freshman at UC Irvine majoring in Computer Science, with interests in design and education. I’m currently exploring how human-computer interaction can bring these fields together to create accessible, aesthetically pleasing, and user-centered technologies.</p>
+        <p>Note: This portfolio is currently a work in progress as of July 2025! I am working on designing this site and hosting my games online. Check back later for updates!</p>
       </section>
 
       <section id="contact" style={{ marginTop: 40 }}>
