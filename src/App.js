@@ -40,7 +40,7 @@ function App() {
         <h2>Contact</h2>
         <p>Email: <a href="mailto:zaidia2@uci.edu">zaidia2@uci.edu</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/ali-zaidi-profile/" target="_blank" rel="noreferrer">linkedin.com/in/ali-zaidi-profile</a></p>
-        <p>GitHub: <a href="https://github.com/yourgithubusername" target="_blank" rel="noreferrer">github.com/yourgithubusername</a></p>
+        <p>GitHub: <a href="https://github.com/alixirr" target="_blank" rel="noreferrer">https://github.com/alixirr</a></p>
       </section>
 
       <footer style={{ textAlign: "center", marginTop: 50, fontSize: 12, color: "#555" }}>
