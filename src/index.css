@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h3 {
+  font-weight: 550
+}
+
+.rainbow-link {
+  font-weight: 400;
+  text-decoration: none;
+  color: #634688;
+  background: linear-gradient(
+    270deg,
+    #7400b8,
+    #6930c3,
+    #5e60ce,
+    #5390d9,
+    #4ea8de,
+    #48bfe3,
+    #56cfe1,
+    #64dfdf,
+    #72efdd,
+    #80ffdb,
+    #72efdd,
+    #64dfdf,
+    #56cfe1,
+    #48bfe3,
+    #4ea8de,
+    #5390d9,
+    #5e60ce,
+    #6930c3,
+    #7400b8
+
+
+  );
+  background-size: 200% 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  
+  /* Show solid color normally */
+  -webkit-text-fill-color: #634688;
+
+  transition: all 0.5s ease;
+}
+
+.rainbow-link:hover {
+  animation: rainbowAnimation 2s linear infinite;
+  
+  /* Show gradient on hover */
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes rainbowAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
